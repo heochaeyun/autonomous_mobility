@@ -41,7 +41,7 @@ KITTI 데이터셋을 기반으로 차량 주행 환경에서의 객체 탐지(O
 ## Results
 
 ### Object Detection
-![object](object_detection/compare_frames/000007.png)
+![object](object_detection/assets/000007.png)
 
 ### Lane Detection
-![lane](lane_detection/outputs/ufld_lane_results/ufld_000015.png)
+![lane](lane_detection/assets/ufld_000015.png)

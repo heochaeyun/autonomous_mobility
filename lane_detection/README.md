@@ -67,10 +67,10 @@ lane_detection/
 ## Lane Detection Results (Sequence 09 - Frame 000013.png)
 
 ### Bayesian-based detection
-![Bayesian](outputs/lane_results/lane_000013.png)
+![Bayesian](assets/bayesian_000013.png)
 
 ### UFLD-based detection
-![UFLD](outputs/ufld_lane_results/ufld_000013.png)
+![UFLD](assets/ufld_000013.png)
 
 ---
 
