@@ -1,0 +1,53 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Virtual Environment
+# =========================
+mid_env/
+.venv/
+venv/
+env/
+
+# =========================
+# Model files
+# =========================
+*.pt
+
+# =========================
+# Images / Frames
+# =========================
+*.png
+
+*.docx
+*.pdf
+
+object_detection/left_frames/
+object_detection/right_frames/
+object_detection/compare_frames/
+
+# =========================
+# Videos
+# =========================
+*.mp4
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment variables
+# =========================
+.env
