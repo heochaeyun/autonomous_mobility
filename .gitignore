@@ -7,13 +7,14 @@ __pycache__/
 *.pyd
 
 # =========================
-# Jupyter Notebook
+# Notebook generated files
 # =========================
 .ipynb_checkpoints/
 
 # =========================
 # Virtual Environment
 # =========================
+auto_env/
 mid_env/
 .venv/
 venv/
@@ -23,23 +24,32 @@ env/
 # Model files
 # =========================
 *.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+*.tflite
 
 # =========================
 # Images / Frames
 # =========================
-*.png
-
-*.docx
-*.pdf
-
+outputs/
+lane_detection/outputs/
 object_detection/left_frames/
 object_detection/right_frames/
 object_detection/compare_frames/
+
+*.docx
+*.pdf
 
 # =========================
 # Videos
 # =========================
 *.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
 
 # =========================
 # OS / Editor
@@ -51,3 +61,18 @@ Thumbs.db
 # Environment variables
 # =========================
 .env
+
+# =========================
+# Outputs / Results
+# =========================
+**/outputs/
+**/runs/
+**/results/
+
+# =========================
+# Datasets / downloaded data
+# =========================
+data/
+dataset/
+datasets/
+lane_detection/Ultra-Fast-Lane-Detection/
