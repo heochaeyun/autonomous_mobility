@@ -15,25 +15,29 @@ KITTI 데이터셋을 기반으로 차량 주행 환경에서의 객체 탐지(O
 
 ```bash
 .
-├── .gitignore
-├── README.md
-├── requirements.txt
+├── .gitignore                     # Git에서 제외할 파일 및 폴더 목록
+├── README.md                      # 프로젝트 전체 설명
+├── requirements.txt               # 필요한 Python 패키지 목록
 ├── object_detection/
-│   ├── object_detection.py
-│   ├── compare_frame.py
-│   ├── yolov8n.pt                 # YOLO model (ignored)
-│   ├── YOLO_left.mp4              # Result video (ignored)
-│   ├── YOLO_right.mp4             # Result video (ignored)
-│   ├── left_frames/               # Extracted frames (ignored)
-│   ├── right_frames/              # Extracted frames (ignored)
-│   └── compare_frames/            # Comparison frames (ignored)
+│   ├── README.md                  # 객체 탐지 파트 설명
+│   ├── assets                     # README 및 문서용 이미지
+│   ├── object_detection.py        # YOLOv8 객체 탐지 코드
+│   ├── compare_frame.py           # 좌/우 카메라 비교 코드
+│   ├── yolov8n.pt                 # YOLO 모델 (ignored)
+│   ├── YOLO_left.mp4              # 결과 영상 (ignored)
+│   ├── YOLO_right.mp4             # 결과 영상 (ignored)
+│   ├── left_frames/               # 추출된 프레임 이미지 (ignored)
+│   ├── right_frames/              # 추출된 프레임 이미지 (ignored)
+│   └── compare_frames/            # 비교 프레임 이미지 (ignored)
 │
 ├── lane_detection/
-│   ├── lane_detection.ipynb
-│   ├── Ultra-Fast-Lane-Detection/ # External lane detection repo (ignored)
-│   └── outputs/                   # Lane detection results (ignored)
+│   ├── README.md                  # 차선 검출 파트 설명
+│   ├── assets                     # README 및 문서용 이미지
+│   ├── lane_detection.ipynb       # 차선 검출 실험 ipynb
+│   ├── Ultra-Fast-Lane-Detection/ # 외부 차선 검출 저장소 (ignored)
+│   └── outputs/                   # Bayesian/UFLD 결과 폴더 (ignored)
 │
-└── auto_env/                      # Python virtual environment (ignored)
+└── auto_env/                      # Python 가상환경 폴더 (ignored)
 ```
 
 ---
